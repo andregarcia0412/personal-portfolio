@@ -34,7 +34,7 @@ body{
     display: flex;
     align-items: center;
     padding: 0 10px;
-    gap: 10px;
+    gap: 20px;
     position: relative;
     border-bottom: 1px solid;
     border-color: #D1D1D1;
@@ -59,7 +59,11 @@ body{
 }
 
 .search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
+    gap: 4px;
     left: 50%;
     border: 1px solid;
     border-color: #aeaeb2;
@@ -71,7 +75,7 @@ body{
     text-align: center;
     font-size: 14px;
     color: #444446;
-    line-height: 25px
+    line-height: 24px
 }
 
 .name-h1{
@@ -82,10 +86,9 @@ body{
 
 .name-p{
     position: absolute;
-    top: 60%;
+    top: 55%;
     font-size: 28px;
-    color: #1C1C1E;
-    font-weight: bold;
+    color: #d9e2ec;
     margin-right: 60vh;
     margin-left: 2vh;
 }
