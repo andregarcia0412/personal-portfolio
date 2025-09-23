@@ -52,10 +52,13 @@
             <div class="window-content">
                 <div class="menu-bar">
                     <div class="items">
-                        <button>Hey</button>
-                        <button>Work</button>
-                        <button>Story</button>
-                        <button>Chat</button>
+                        <button id="btn-about" onclick="smoothlyScrollTo('about')">About</button>
+                        <button id="btn-skills" onclick="smoothlyScrollTo('skills')">Skills</button>
+                        <button id="btn-projects">Projects</button>
+                        <button id="btn-contacts">Contacts</button>
+                        <a href="https://drive.google.com/file/d/1q75b2HRqUQDL_i4gglA_prvl4Q4P45Ac/view?usp=sharing" target="_blank">
+                            <button id="btn-resume">Resume</button>
+                        </a>
                     </div>
                 </div>
                 <p class="name-p">
@@ -67,6 +70,50 @@
                     <span style="color: #FFFFFF; font-size: 10.3vw;">André</span>
                     <span style="color: #1C3A5E; font-size: 10.3vw;">Garcia</span>
                 </h1>
+            </div>
+
+            <div class="info">
+
+                <div id="about">
+                    <h1>About Me</h1>
+                    <p>I am an 18-year-old Computer Science student in my second semester at the University of Fortaleza (UNIFOR). I have experience in web development with HTML, CSS, JavaScript, Node.js, and relational databases, as well as knowledge of Python for Data Science, C++ for competitive programming, Java, and version control with Git and GitHub. I am proactive, organized, and possess excellent communication and teamwork skills. My focus is on continuous learning to add value to projects in collaborative environments. I am seeking to join an innovative team where I can apply my technical knowledge, grow professionally, and contribute to the company's goals.</p>
+                </div>
+
+                <div id="skills">
+                    <h1>Skills & Technologies</h1>
+                    <div id="skill-paragraphs">
+                        <div id="languages">
+                            <h3 class="text-svg-align"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code w-6 h-6"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>  Languages</h3>
+                            <ul>
+                                <li>Java</li>
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                                <li>C</li>
+                                <li>C++</li>
+                                <li>Lua</li>
+                            </ul>
+                        </div>
+                        <div id="backend-cloud">
+                            <h3 class="text-svg-align"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-database w-6 h-6"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5V19A9 3 0 0 0 21 19V5"></path><path d="M3 12A9 3 0 0 0 21 12"></path></svg> Backend & Cloud</h3>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>Flask</li>
+                                <li>MySQL</li>
+                                <li>SQLServer</li>
+                                <li>RESTFul APIs</li>
+                            </ul>
+                        </div>
+                        <div id="frontend">
+                            <h3 class="text-svg-align"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-terminal w-6 h-6"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" x2="20" y1="19" y2="19"></line></svg> Frontend & Mobile</h3>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Tailwind CSS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
     </div>
 

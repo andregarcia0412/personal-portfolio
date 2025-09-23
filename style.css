@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 *{
     margin: 0;
     padding: 0;
@@ -22,10 +24,10 @@ body{
     background: linear-gradient(to bottom, #5B8CBF, #A3C0E8);
     border-radius: 12px;
     box-shadow: 0 20px 30px rgba(0,0,0,0.4);
-    overflow: hidden;
     position: relative;
     border: 1px solid;
     border-color: #D1D1D1;
+    overflow-y: auto;
 }
 
 .window-header{
@@ -94,7 +96,7 @@ body{
 }
 
 .menu-bar{
-    width: 300px;
+    width: 450px;
     height: 35px;
     border-radius: 50px;
     background-color: #1C1C1E;
@@ -130,4 +132,120 @@ body{
     cursor: pointer;
     color: #F2F2F7;
     background-color: #3E7BFA;
+}
+
+.info{
+    position: absolute;
+    top: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    background-color: #1C1C1E;
+    padding: 8vh;
+
+}
+
+#about h1{
+    margin: auto;
+    font-size: 64px;
+    font-family: 'Montserrat';
+    color: #3E7BFA; 
+    height: auto;
+    max-width: 100%;
+}
+
+#about p{
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #F2F2F7;
+    font-family: 'Montserrat';
+    margin: 10px;
+}
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding: 8vh;
+    height: auto;
+    max-width: 100%;
+}
+
+#skills h1{
+    margin: auto;
+    font-size: 64px;
+    color: #1C3A5E;
+}
+
+#skill-paragraphs{
+    display: flex;
+    justify-content: space-around;
+}
+
+#languages{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    height: 25vh;
+    width: 25vh;
+    color: #FFF;
+    background-color: #1C1C1E;
+    height: auto;
+    max-width: 100%;
+}
+
+#backend-cloud{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    height: 25vh;
+    width: 25vh;
+    color: #FFF;
+    background-color: #1C1C1E;
+    height: auto;
+    max-width: 100%;
+}
+
+
+#frontend{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    height: 25vh;
+    width: 25vh;
+    color: #FFF;
+    background-color: #1C1C1E;
+    height: auto;
+    max-width: 100%;
+}
+
+
+.text-svg-align{
+    display: flex; 
+    align-items:center;
+    gap: 1vh;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+
+ul{
+    margin-top: 1vh;
+    list-style-type: none;
+    font-family: 'Montserrat';
+}
+
+li{
+    margin-top: 1vh;
+    margin-bottom: 0.5vh;
+    margin-left: 0.5vh;
 }
