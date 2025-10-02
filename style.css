@@ -428,6 +428,7 @@ body{
     justify-content: left;
     text-decoration: none;
     color: #1C1C1E;
+    gap: 10px;
 }
 
 #open-to-oportunities{
