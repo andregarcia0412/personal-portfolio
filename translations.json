@@ -1,0 +1,56 @@
+{
+    "navAbout":{
+        "ptBR":"Sobre",
+        "enUS":"About"
+    },
+
+    "navSkills":{
+        "ptBR":"Habilidades",
+        "enUS":"Skills"
+    },
+
+    "navProjects":{
+        "ptBR":"Projetos",
+        "enUS":"Projects"
+    },
+
+    "navResume":{
+        "ptBR":"Currículo",
+        "enUS":"Resume"
+    },
+
+    "introP":{
+        "ptBR":"Desenvolvedor Full Stack focado em transformar ideias complexas em soluções digitais modernas e eficientes.",
+        "enUS":"Full Stack Developer dedicated to turning complex ideas into sleek, functional digital solutions."
+    },
+
+    "aboutH1":{
+        "ptBR":"Sobre Mim",
+        "enUS":"About Me"
+    },
+
+    "aboutP":{
+        "ptBR":"Estudante de Ciência da Computação no segundo semestre da Universidade de Fortaleza (UNIFOR), 18 anos.Tenho experiência em desenvolvimento web com HTML, CSS, JavaScript, Node.js, bancos de dados relacionais e APIs RESTful, além de conhecimentos em Python para Data Science, C++ para programação competitiva, Java e controle de versão com Git e GitHub. Sou proativo, organizado e possuo excelente capacidade de comunicação e trabalho em equipe. Meu foco é o aprendizado contínuo para agregar valor a projetos em ambientes colaborativos. Busco integrar uma equipe inovadora onde possa aplicar meus conhecimentos técnicos, evoluir profissionalmente e contribuir para os objetivos da empresa.",
+        "enUS":"I am an 18-year-old Computer Science student in my second semester at the University of Fortaleza (UNIFOR). I have experience in web development with HTML, CSS, JavaScript, Node.js, and relational databases, as well as knowledge of Python for Data Science, C++ for competitive programming, Java, and version control with Git and GitHub. I am proactive, organized, and possess excellent communication and teamwork skills. My focus is on continuous learning to add value to projects in collaborative environments. I am seeking to join an innovative team where I can apply my technical knowledge, grow professionally, and contribute to the company's goals."
+    },
+
+    "aboutTag1":{
+        "ptBR":"Resolução de Problemas",
+        "enUS":"Problem Solver"
+    },
+
+    "aboutTag2":{
+        "ptBR":"Pensamento Crítico",
+        "enUS":"Critical Thinker"
+    },
+
+    "aboutTag3":{
+        "ptBR":"Adaptabilidade",
+        "enUS":"Adaptable"
+    },
+
+    "skillsH1":{
+        "ptBR":"Habilidades e Tecnologias",
+        "enUS":"Skills & Technologies"
+    }
+}

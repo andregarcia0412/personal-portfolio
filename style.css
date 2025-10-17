@@ -102,7 +102,7 @@ body{
 }
 
 .menu-bar{
-    width: 450px;
+    width: 550px;
     height: 35px;
     border-radius: 50px;
     background-color: #1C1C1E;
@@ -113,7 +113,7 @@ body{
     box-shadow: 0 2px 3px rgba(28,28,30,0.4);
 }
 
-.items{
+nav{
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -122,7 +122,7 @@ body{
     gap: 20px;
 }
 
-.items button{
+nav button{
     background-color: transparent;
     border: none;
     padding: 6px;
@@ -134,7 +134,7 @@ body{
     transition: color 0.2s linear;
 }
 
-.items button:hover{
+nav button:hover{
     cursor: pointer;
     color: #F2F2F7;
     background-color: #3E7BFA;
@@ -532,7 +532,7 @@ body{
         height: auto;
     }
 
-    .items{
+    nav{
         flex-wrap: wrap;
         padding: 10px;
         gap: 3vh;
@@ -543,7 +543,7 @@ body{
     }
 
     #about, #skills{
-        padding: 40px, 20px;
+        padding: 40px 20px;
         gap: 30px;
     }
 
@@ -557,6 +557,7 @@ body{
 
     #skills h1{
         font-size: 48px;
+        text-align: center;
     }
 
     #about p{
@@ -571,6 +572,53 @@ body{
 
     #languages, #backend-cloud, #frontend{
         width: 90%;
-        height: 40vh;
+        height: auto;
+    }
+
+    .project{
+        width: 85%;
+    }
+
+    #projects #title{
+        text-align: center;
+    }
+
+    .project{
+        margin-top: 30px;
+        border-radius: 8px;
+        padding-bottom: 100px;
+        gap: 50px;
+        margin-bottom: 40px;
+        box-shadow: 0 0 100px rgba(62, 123, 250,0.4);
+    }
+
+    #projects img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #projects p{
+        width: auto;
+    }
+
+    #contacts{
+        padding-top: 50px;
+        text-align: center;
+        background: linear-gradient(to bottom, #5B8CBF, #A3C0E8);
+    }
+
+    .final-info{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #get-in-touch a{
+    justify-content: center;
+    }
+
+    #open-to-oportunities li{
+        justify-content: center;
     }
 }
